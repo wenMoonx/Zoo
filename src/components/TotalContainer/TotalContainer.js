@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import MediaQuery from "react-responsive";
 import Header from "../Header/Header";
+
 // import BackImg from "./components/BackImg";
 import PSWindow from "../PSWindow/PSWindow";
 import Welcome from "../Welcome/Welcome";

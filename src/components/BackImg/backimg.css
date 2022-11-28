@@ -1,27 +1,33 @@
 .frame1 {
   position: absolute;
-  width: 33vw;
-  height: 59vh;
-  left: 12%;
+  /* width: 33vw; */
+  /* height: 70vh; */
+  right: 54%;
   top: 27%;
   z-index: 1;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .frame2 {
   position: absolute;
-  width: 32vw;
-  height: 65vh;
-  left: 52%;
-  top: 20%;
+  /* width: 32vw;
+  height: 65vh; */
+  left: 53%;
+  top: 26%;
   z-index: 1;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .frame3 {
   position: absolute;
-  width: 33vw;
-  height: 48vh;
-  left: 50%;
-  top: 70%;
+  /* width: 33vw;
+  height: 48vh; */
+  left: 48.9%;
+  top: 65%;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .frame4 {
@@ -90,7 +96,22 @@
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 924px) {
+  .frame5 {
+    display: block;
+    width: 400px;
+    height: 330px;
+    top: 80%;
+  }
+  .frame6 {
+    display: block;
+    width: 400px;
+    height: 330px;
+    top: 216%;
+  }
+}
+
+@media screen and (max-width: 771px) {
   .frame5 {
     display: block;
     width: 400px;
