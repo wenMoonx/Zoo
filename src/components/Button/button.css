@@ -1,0 +1,82 @@
+@font-face {
+  font-family: Chaloops;
+  src: url("./Chaloops.ttf") format("truetype");
+}
+
+.custom-button {
+  /* width: 156px; */
+  /* height: 40px; */
+  background: #fbe6b5;
+  box-shadow: -2px 1px 16px #fbe6b5;
+  border-radius: 11px;
+  border: none;
+  font-family: Chaloops;
+  text-align: center;
+  padding-top: 0.7vh;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 14px;
+  color: #352b15;
+  margin-right: 67px;
+}
+
+.custom-button:hover {
+  /* width: 156px; */
+  /* height: 40px; */
+  background: #fff1cf;
+  box-shadow: -2px 1px 16px #ffd87d;
+  border-radius: 11px;
+  border: none;
+  /* font-family: Chaloop; */
+  font-family: Chaloops;
+
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 14px;
+  color: #352b15;
+  margin-right: 67px;
+}
+
+.custom-button:active {
+  /* width: 156px; */
+  /* height: 40px; */
+  background: #fbe6b5 !important;
+  box-shadow: -2px 1px 16px #fbe6b5 !important;
+  border-radius: 11px;
+  border: none;
+  /* font-family: Chaloop; */
+  font-family: Chaloops;
+
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 14px;
+  color: #352b15;
+  margin-right: 67px;
+}
+
+.custom-button.disabled {
+  /* width: 156px; */
+  /* height: 40px; */
+  background: #af9f78 !important;
+  box-shadow: -2px 1px 16px #6d6960 !important;
+  border-radius: 11px;
+  border: none;
+  /* font-family: Chaloop; */
+  font-family: Chaloops;
+
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 14px;
+  color: #352b15;
+  margin-right: 67px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .me-auto .custom-button {
+    display: none;
+  }
+}

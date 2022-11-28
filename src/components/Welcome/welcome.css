@@ -1,0 +1,102 @@
+.welcome-panel {
+  position: relative;
+  width: 311px;
+  height: 265px;
+  display: flex;
+  justify-content: center;
+  border-radius: 44px;
+  background: #fff9eb;
+  padding-top: 21px;
+  top: 175%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.welcome-explanation {
+  width: 230px;
+  height: 40px;
+  font-family: UbuntuTitling;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+  /* or 20px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Primary */
+
+  color: #000000;
+
+  opacity: 0.4;
+}
+
+.welcome-title {
+  width: 247px;
+  height: 69px;
+  margin-top: 35px;
+  font-family: Chaloops;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: -0.005em;
+
+  /* Primary */
+
+  color: #000000;
+}
+
+.welcome-panel button {
+  width: 156px;
+  height: 40px;
+
+  background: #fbe6b5;
+  box-shadow: -2px 1px 16px #fbe6b5;
+  border-radius: 11px;
+  border: none;
+  font-family: Chaloops;
+  text-align: center;
+  padding-top: 0.7vh;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 14px;
+  color: #352b15;
+}
+
+.welcome-panel button:hover {
+  background: #fff1cf;
+  box-shadow: -2px 1px 16px #ffd87d;
+  border-radius: 11px;
+  border: none;
+  /* font-family: Chaloop; */
+  font-family: Chaloops;
+
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 14px;
+  color: #352b15;
+}
+
+.welcome-panel button:active {
+  /* width: 156px; */
+  /* height: 40px; */
+  background: #fbe6b5 !important;
+  box-shadow: -2px 1px 16px #fbe6b5 !important;
+  border-radius: 11px;
+  border: none;
+  /* font-family: Chaloop; */
+  font-family: Chaloops;
+
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 14px;
+  color: #352b15;
+}

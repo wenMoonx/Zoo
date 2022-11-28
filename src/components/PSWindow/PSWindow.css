@@ -1,0 +1,327 @@
+@font-face {
+  font-family: Chaloops;
+  src: url("./Chaloops.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: UbuntuTitling;
+  src: url("./Ubuntu-Medium.ttf") format("truetype");
+}
+
+.main-panel {
+  position: relative;
+  width: 354px;
+  height: 322px;
+
+  border-radius: 20px;
+  background: #fff9eb;
+  padding-top: 21px;
+  top: 19%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.main-panel-incoming {
+  position: relative;
+  margin-top: -55px;
+  width: 354px;
+  height: 145px;
+  border-radius: 20px;
+  background: #fff9eb;
+  padding-top: 21px;
+  top: 51.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.referral-panel {
+  vertical-align: middle;
+  position: absolute;
+  display: inline-flex;
+  margin-top: 230px;
+  width: 354px;
+  height: 51px;
+  border-radius: 20px;
+  background: #fff9eb;
+  padding-top: 21px;
+  top: 88%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title-section {
+  position: relative;
+  top: -10px;
+  left: 0px;
+  margin-right: 0px;
+  display: inline-block;
+  width: 104px;
+  height: 29px;
+  text-align: center;
+  background: #fbe6b580;
+  border-radius: 6px;
+}
+
+.clipboard-edit {
+  position: relative;
+  top: -15px;
+  display: inline-block;
+  width: 225px;
+  height: 20px;
+}
+
+.css-en3na7 {
+  color: #fbe6b5;
+}
+
+.css-o03mr5 input {
+  border: 1px solid #fbe6b5;
+  border-radius: 6px !important;
+  font-family: UbuntuTitling;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 11px;
+  border-right: none;
+  background-color: #fff9eb;
+  /* identical to box height */
+
+  color: #352b1591;
+}
+
+.clipboard-edit input {
+}
+
+.referral-compnent-container {
+  position: relative;
+  left: 20px;
+}
+
+.referral-title {
+  font-family: Chaloops;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 11px;
+  padding-top: 8px;
+  /* identical to box height */
+
+  color: #352b15;
+}
+
+.ps-title {
+  box-sizing: border-box;
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  width: 387px;
+  height: 29px;
+  background: #fff9eb;
+  border-radius: 6px;
+}
+.title-txt {
+  font-family: Chaloops;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 11px;
+  color: #352b15;
+}
+
+.root-react-component-countdown-timer {
+  text-align: center;
+}
+.root-react-component-countdown-timer span {
+  display: inline-flex;
+  box-sizing: border-box;
+  width: 50px !important;
+  height: 50px !important;
+  background: #fbe6b5 !important;
+  box-shadow: -2px 1px 16px #fbe6b5;
+  border-radius: 6px;
+  font-family: Chaloops;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  justify-content: center;
+  padding-top: 15px;
+  margin-left: 10px;
+  /* identical to box height */
+
+  color: #ffffff !important;
+}
+
+.income-label {
+  position: relative;
+  font-family: Chaloops;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 11px;
+  float: right;
+  right: 10px;
+  top: -25px;
+  /* identical to box height */
+
+  color: #352b15;
+}
+
+.main-panel-incoming span {
+  display: inherit;
+  margin: auto;
+  width: 300px;
+}
+
+.min-max-buy {
+  font-family: UbuntuTitling;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 13px;
+  width: 50%;
+  /* identical to box height */
+
+  color: #352b15;
+}
+
+.clipboard-edit button {
+  border: 1px solid #fbe6b5;
+  border-left: none;
+  background: url(./Vector.png) center no-repeat;
+}
+
+.price {
+  width: 50%;
+  text-align: right!important;
+  font-family: UbuntuTitling;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 13px;
+}
+
+.buy a {
+  position: relative;
+  left: 63px;
+}
+
+.widget-container input {
+  width: 318px;
+  height: 38px;
+  border: 1px solid #fbe6b5;
+  padding-left: 20px;
+  font-family: UbuntuTitling;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 13px;
+  margin-left: -5px;
+  /* identical to box height */
+
+  color: #352b15;
+  border-radius: 11px;
+}
+
+.widget-container input[type="text"]:focus {
+  width: 387px;
+  height: 38px;
+
+  border: 1px solid #d8cfb9;
+  border-radius: 11px;
+}
+
+.widget-container a {
+  position: relative !important;
+  top: -30px;
+  right: -60px;
+}
+
+.progress {
+  background: #fbe6b534;
+}
+
+.progress-bar {
+  background: #fbe6b5;
+}
+
+.min-value {
+  float: left;
+  padding-top: 15px;
+  font-family: Chaloops;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 10px;
+  /* identical to box height */
+
+  color: #ffeab8;
+}
+
+.max-value {
+  float: right;
+  padding-top: 15px;
+  font-family: Chaloops;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 10px;
+  /* identical to box height */
+
+  color: #ffeab8;
+}
+
+.mr-0 {
+  margin-right: 0;
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .ps-title {
+    margin-left: 0px;
+  }
+  .main-panel {
+    position: relative;
+    width: 354px;
+    height: 322px;
+
+    border-radius: 20px;
+    background: #fff9eb;
+    padding-top: 21px;
+    top: 19%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+
+  .main-panel-incoming {
+    position: relative;
+    margin-top: -55px;
+    width: 354px;
+    height: 145px;
+    border-radius: 20px;
+    background: #fff9eb;
+    padding-top: 21px;
+    top: 51.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .referral-panel {
+    vertical-align: middle;
+    position: absolute;
+    display: inline-flex;
+    margin-top: 230px;
+    width: 354px;
+    height: 51px;
+    border-radius: 20px;
+    background: #fff9eb;
+    padding-top: 21px;
+    top: 89%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

@@ -1,0 +1,106 @@
+.frame1 {
+  position: absolute;
+  width: 33vw;
+  height: 59vh;
+  left: 12%;
+  top: 27%;
+  z-index: 1;
+}
+
+.frame2 {
+  position: absolute;
+  width: 32vw;
+  height: 65vh;
+  left: 52%;
+  top: 20%;
+  z-index: 1;
+}
+
+.frame3 {
+  position: absolute;
+  width: 33vw;
+  height: 48vh;
+  left: 50%;
+  top: 70%;
+}
+
+.frame4 {
+  position: fixed;
+  bottom: 0;
+  height: 23vw;
+  width: 100vw;
+  z-index: -1;
+}
+
+.frame5 {
+  display: none;
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.frame6 {
+  display: none;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.frame7 {
+  display: none;
+  position: absolute;
+  top: 0px;
+  height: 23vw;
+  width: 100%;
+  z-index: 1;
+  transform: rotate(180deg);
+}
+
+@media only screen and (max-width: 925px) {
+  .frame1 {
+    display: none;
+  }
+  .frame2 {
+    display: none;
+  }
+  .frame3 {
+    display: none;
+  }
+  .frame4 {
+    position: fixed;
+    bottom: 0;
+  }
+  .frame5 {
+    display: block;
+    width: 400px;
+    height: 330px;
+    top: 95%;
+  }
+  .frame6 {
+    display: block;
+    width: 400px;
+    height: 330px;
+    top: 250%;
+  }
+  .frame7 {
+    display: block;
+    bottom: -100%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .frame5 {
+    display: block;
+    width: 400px;
+    height: 330px;
+    top: 80%;
+  }
+  .frame6 {
+    display: block;
+    width: 400px;
+    height: 330px;
+    top: 215%;
+  }
+}

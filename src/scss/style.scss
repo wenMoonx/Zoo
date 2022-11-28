@@ -1,0 +1,25 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+  .body-bg {
+    // background-color: #171319;
+    height: 100% !important;
+    display: inline-flex;
+  }
+
+
+
+  .title {
+    margin-top: 50px;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  .live-notice{
+    font-size: 24px;
+    color: white;
+  }

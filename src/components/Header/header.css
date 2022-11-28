@@ -1,0 +1,140 @@
+@font-face {
+  font-family: UbuntuTitling;
+  src: url("./Ubuntu-Medium.ttf") format("truetype");
+}
+
+#demo-customized-menu li {
+  width: 156px;
+  height: 40px;
+  background: #fbe6b5 !important;
+  box-shadow: -2px 1px 16px #fbe6b5 !important;
+  border: none !important;
+  font-family: Chaloops;
+  text-align: center;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 14px;
+  color: #352b15;
+}
+
+#demo-customized-menu ul {
+  height: 40px;
+  padding: 0;
+  background: #fbe6b5 !important;
+  box-shadow: -2px 1px 16px #fbe6b5 !important;
+  border: none !important;
+  font-family: Chaloops;
+  text-align: center;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 14px;
+  color: #352b15;
+}
+
+.navbar-brand img {
+  width: 235px;
+  height: 235px;
+}
+.navbar-brand {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.navbar-brand div {
+  padding-bottom: 60px !important;
+}
+
+.navbar-toggler {
+  right: 10%;
+  position: relative;
+}
+
+.navbar {
+  background: #fcf2db !important;
+}
+
+.navbar button {
+  width: 156px;
+  height: 40px;
+  background: #fbe6b5;
+  box-shadow: -2px 1px 16px #fbe6b5;
+  border-radius: 11px;
+  border: none;
+  font-family: Chaloops;
+  text-align: center;
+  padding-top: 0.7vh;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 14px;
+  color: #352b15;
+  margin-right: 50px;
+}
+
+.navbar button:hover {
+  /* width: 156px; */
+  /* height: 40px; */
+  margin-right: 50px;
+  background: #fff1cf;
+  box-shadow: -2px 1px 16px #ffd87d;
+  border-radius: 11px;
+  border: none;
+  /* font-family: Chaloop; */
+  font-family: Chaloops;
+
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 14px;
+  color: #352b15;
+  z-index: 1000;
+}
+
+.navbar button:active {
+  /* width: 156px; */
+  /* height: 40px; */
+  margin-right: 50px;
+  background: #fbe6b5 !important;
+  box-shadow: -2px 1px 16px #fbe6b5 !important;
+  border-radius: 11px;
+  border: none;
+  /* font-family: Chaloop; */
+  font-family: Chaloops;
+
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 14px;
+  color: #352b15;
+}
+.nav-link {
+  float: right;
+  font-family: UbuntuTitling;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 15px;
+  color: #352b15;
+  margin-left: 4.5vw;
+}
+
+.me-auto {
+  /* margin-left: 182px; */
+  text-align: center;
+}
+
+@media only screen and (max-width: 770px) {
+  .navbar button {
+    display: none;
+  }
+  .navbar-brand img {
+    width: 206px;
+    height: 206px;
+    padding-bottom: 30px;
+  }
+  .referral-panel {
+  }
+}
